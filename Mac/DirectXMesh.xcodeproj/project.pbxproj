@@ -11,22 +11,19 @@
 		F708EC4320445B15000047B5 /* DirectXMeshUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3120445B14000047B5 /* DirectXMeshUtil.cpp */; };
 		F708EC4420445B15000047B5 /* DirectXMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC3220445B14000047B5 /* DirectXMesh.h */; };
 		F708EC4520445B15000047B5 /* DirectXMeshGSAdjacency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3320445B14000047B5 /* DirectXMeshGSAdjacency.cpp */; };
-		F708EC4620445B15000047B5 /* DirectXMeshOptimizeLRU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3420445B14000047B5 /* DirectXMeshOptimizeLRU.cpp */; };
 		F708EC4720445B15000047B5 /* DirectXMeshClean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3520445B14000047B5 /* DirectXMeshClean.cpp */; };
 		F708EC4820445B15000047B5 /* DirectXMeshWeldVertices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3720445B14000047B5 /* DirectXMeshWeldVertices.cpp */; };
 		F708EC4920445B15000047B5 /* DirectXMeshValidate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3820445B14000047B5 /* DirectXMeshValidate.cpp */; };
-		F708EC4A20445B15000047B5 /* DirectXMeshOptimize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3920445B14000047B5 /* DirectXMeshOptimize.cpp */; };
 		F708EC4B20445B15000047B5 /* DirectXMeshRemap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3A20445B15000047B5 /* DirectXMeshRemap.cpp */; };
-		F708EC4C20445B15000047B5 /* DirectXMeshVBWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3B20445B15000047B5 /* DirectXMeshVBWriter.cpp */; };
 		F708EC4D20445B15000047B5 /* DirectXMeshTangentFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3C20445B15000047B5 /* DirectXMeshTangentFrame.cpp */; };
 		F708EC4E20445B15000047B5 /* scoped.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC3D20445B15000047B5 /* scoped.h */; };
 		F708EC4F20445B15000047B5 /* DirectXMeshAdjacency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3E20445B15000047B5 /* DirectXMeshAdjacency.cpp */; };
-		F708EC5020445B15000047B5 /* DirectXMeshVBReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC3F20445B15000047B5 /* DirectXMeshVBReader.cpp */; };
 		F708EC5120445B15000047B5 /* DirectXMeshOptimizeTVC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F708EC4020445B15000047B5 /* DirectXMeshOptimizeTVC.cpp */; };
 		F708EC5220445B15000047B5 /* DirectXMeshP.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC4120445B15000047B5 /* DirectXMeshP.h */; };
 		F708EC5620445B63000047B5 /* wincompat.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC5320445B63000047B5 /* wincompat.h */; };
 		F708EC5720445B63000047B5 /* malloc.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC5420445B63000047B5 /* malloc.h */; };
 		F708EC5820445B63000047B5 /* sal.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC5520445B63000047B5 /* sal.h */; };
+		F7FDD0E52044908B00A14096 /* DirectXMeshOptimize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0E42044908B00A14096 /* DirectXMeshOptimize.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,23 +32,20 @@
 		F708EC3120445B14000047B5 /* DirectXMeshUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshUtil.cpp; path = ../../DirectXMesh/DirectXMeshUtil.cpp; sourceTree = "<group>"; };
 		F708EC3220445B14000047B5 /* DirectXMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectXMesh.h; path = ../../DirectXMesh/DirectXMesh.h; sourceTree = "<group>"; };
 		F708EC3320445B14000047B5 /* DirectXMeshGSAdjacency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshGSAdjacency.cpp; path = ../../DirectXMesh/DirectXMeshGSAdjacency.cpp; sourceTree = "<group>"; };
-		F708EC3420445B14000047B5 /* DirectXMeshOptimizeLRU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshOptimizeLRU.cpp; path = ../../DirectXMesh/DirectXMeshOptimizeLRU.cpp; sourceTree = "<group>"; };
 		F708EC3520445B14000047B5 /* DirectXMeshClean.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshClean.cpp; path = ../../DirectXMesh/DirectXMeshClean.cpp; sourceTree = "<group>"; };
 		F708EC3620445B14000047B5 /* DirectXMesh.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DirectXMesh.inl; path = ../../DirectXMesh/DirectXMesh.inl; sourceTree = "<group>"; };
 		F708EC3720445B14000047B5 /* DirectXMeshWeldVertices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshWeldVertices.cpp; path = ../../DirectXMesh/DirectXMeshWeldVertices.cpp; sourceTree = "<group>"; };
 		F708EC3820445B14000047B5 /* DirectXMeshValidate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshValidate.cpp; path = ../../DirectXMesh/DirectXMeshValidate.cpp; sourceTree = "<group>"; };
-		F708EC3920445B14000047B5 /* DirectXMeshOptimize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshOptimize.cpp; path = ../../DirectXMesh/DirectXMeshOptimize.cpp; sourceTree = "<group>"; };
 		F708EC3A20445B15000047B5 /* DirectXMeshRemap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshRemap.cpp; path = ../../DirectXMesh/DirectXMeshRemap.cpp; sourceTree = "<group>"; };
-		F708EC3B20445B15000047B5 /* DirectXMeshVBWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshVBWriter.cpp; path = ../../DirectXMesh/DirectXMeshVBWriter.cpp; sourceTree = "<group>"; };
 		F708EC3C20445B15000047B5 /* DirectXMeshTangentFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshTangentFrame.cpp; path = ../../DirectXMesh/DirectXMeshTangentFrame.cpp; sourceTree = "<group>"; };
 		F708EC3D20445B15000047B5 /* scoped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scoped.h; path = ../../DirectXMesh/scoped.h; sourceTree = "<group>"; };
 		F708EC3E20445B15000047B5 /* DirectXMeshAdjacency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshAdjacency.cpp; path = ../../DirectXMesh/DirectXMeshAdjacency.cpp; sourceTree = "<group>"; };
-		F708EC3F20445B15000047B5 /* DirectXMeshVBReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshVBReader.cpp; path = ../../DirectXMesh/DirectXMeshVBReader.cpp; sourceTree = "<group>"; };
 		F708EC4020445B15000047B5 /* DirectXMeshOptimizeTVC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshOptimizeTVC.cpp; path = ../../DirectXMesh/DirectXMeshOptimizeTVC.cpp; sourceTree = "<group>"; };
 		F708EC4120445B15000047B5 /* DirectXMeshP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectXMeshP.h; path = ../../DirectXMesh/DirectXMeshP.h; sourceTree = "<group>"; };
 		F708EC5320445B63000047B5 /* wincompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wincompat.h; path = DirectXMesh/wincompat.h; sourceTree = "<group>"; };
 		F708EC5420445B63000047B5 /* malloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = malloc.h; path = DirectXMesh/Include/malloc.h; sourceTree = "<group>"; };
 		F708EC5520445B63000047B5 /* sal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sal.h; path = DirectXMesh/Include/sal.h; sourceTree = "<group>"; };
+		F7FDD0E42044908B00A14096 /* DirectXMeshOptimize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectXMeshOptimize.cpp; path = ../../DirectXMesh/DirectXMeshOptimize.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,16 +87,13 @@
 				F708EC3520445B14000047B5 /* DirectXMeshClean.cpp */,
 				F708EC3320445B14000047B5 /* DirectXMeshGSAdjacency.cpp */,
 				F708EC3020445B14000047B5 /* DirectXMeshNormals.cpp */,
-				F708EC3920445B14000047B5 /* DirectXMeshOptimize.cpp */,
-				F708EC3420445B14000047B5 /* DirectXMeshOptimizeLRU.cpp */,
+				F7FDD0E42044908B00A14096 /* DirectXMeshOptimize.cpp */,
 				F708EC4020445B15000047B5 /* DirectXMeshOptimizeTVC.cpp */,
 				F708EC4120445B15000047B5 /* DirectXMeshP.h */,
 				F708EC3A20445B15000047B5 /* DirectXMeshRemap.cpp */,
 				F708EC3C20445B15000047B5 /* DirectXMeshTangentFrame.cpp */,
 				F708EC3120445B14000047B5 /* DirectXMeshUtil.cpp */,
 				F708EC3820445B14000047B5 /* DirectXMeshValidate.cpp */,
-				F708EC3F20445B15000047B5 /* DirectXMeshVBReader.cpp */,
-				F708EC3B20445B15000047B5 /* DirectXMeshVBWriter.cpp */,
 				F708EC3720445B14000047B5 /* DirectXMeshWeldVertices.cpp */,
 				F708EC3D20445B15000047B5 /* scoped.h */,
 			);
@@ -183,19 +174,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F708EC4520445B15000047B5 /* DirectXMeshGSAdjacency.cpp in Sources */,
-				F708EC4A20445B15000047B5 /* DirectXMeshOptimize.cpp in Sources */,
 				F708EC4B20445B15000047B5 /* DirectXMeshRemap.cpp in Sources */,
 				F708EC4F20445B15000047B5 /* DirectXMeshAdjacency.cpp in Sources */,
-				F708EC4C20445B15000047B5 /* DirectXMeshVBWriter.cpp in Sources */,
 				F708EC4920445B15000047B5 /* DirectXMeshValidate.cpp in Sources */,
+				F7FDD0E52044908B00A14096 /* DirectXMeshOptimize.cpp in Sources */,
 				F708EC4720445B15000047B5 /* DirectXMeshClean.cpp in Sources */,
 				F708EC5120445B15000047B5 /* DirectXMeshOptimizeTVC.cpp in Sources */,
 				F708EC4320445B15000047B5 /* DirectXMeshUtil.cpp in Sources */,
 				F708EC4820445B15000047B5 /* DirectXMeshWeldVertices.cpp in Sources */,
 				F708EC4220445B15000047B5 /* DirectXMeshNormals.cpp in Sources */,
-				F708EC5020445B15000047B5 /* DirectXMeshVBReader.cpp in Sources */,
 				F708EC4D20445B15000047B5 /* DirectXMeshTangentFrame.cpp in Sources */,
-				F708EC4620445B15000047B5 /* DirectXMeshOptimizeLRU.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
