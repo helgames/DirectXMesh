@@ -22,8 +22,10 @@
 #if defined(_XBOX_ONE) && defined(_TITLE)
 #include <d3d11_x.h>
 #define DCOMMON_H_INCLUDED
-#else
+#elif defined(PLATFORM_WIN)
 #include <d3d11_1.h>
+#else
+#include "wincompat.h"
 #endif
 #endif
 

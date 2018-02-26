@@ -65,7 +65,11 @@
 #define _WIN32_WINNT_WIN10 0x0A00
 #endif
 
+#ifdef PLATFORM_WIN
 #include <windows.h>
+#else
+#include "wincompat.h"
+#endif
 
 #if defined(_XBOX_ONE) && defined(_TITLE)
 #include <d3d12_x.h>
@@ -73,8 +77,10 @@
 #elif (_WIN32_WINNT >= _WIN32_WINNT_WIN10)
 #include <d3d12.h>
 #include <d3d11_4.h>
-#else
+#elif defined(PLATFORM_WIN)
 #include <d3d11_1.h>
+#else
+#include "wincompat.h"
 #endif
 
 #include <directxmath.h>
